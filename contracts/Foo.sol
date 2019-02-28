@@ -20,5 +20,6 @@ contract Foo {
     {
         x = _x;
         emit NewX(_x);
+        return true;
     }
 }
